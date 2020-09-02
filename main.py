@@ -27,7 +27,7 @@ def main():
         nonce = w3.eth.getTransactionCount(account.address)
         print(f'nonce: {nonce}')
 
-        gas_price = w3.eth.gasPrice;
+        gas_price = w3.eth.gasPrice
         print(f"gasPrice: {gas_price}")
 
         chain_id = 1007
